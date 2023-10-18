@@ -1,0 +1,11 @@
+<html>
+    <head></head>
+    <body>
+        <script src="DynamicSDGs.js"></script>
+        <h1>Provide a list of SDG numbers (between 1 & 17)</h1>
+        <p><i>(separated by ",")</i></p>
+        <input type="text" id="sdgs" />
+        <button onclick="pieChart(700,document.getElementById('sdgs').value);">Draw</button>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 120 900 900" id="svg" ><defs id="svgdefs"></defs></svg>
+    </body>
+</html>
